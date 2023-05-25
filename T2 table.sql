@@ -27,4 +27,4 @@ delete from T2 where emp_name like ('M%');
 delete from T2 where emp_designation="shopkeeper";
 delete from T2 where emp_salary between 1000 and 20000; 
 delete from T2 where emp_name like ('%e');
-
+The end
