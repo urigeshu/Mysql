@@ -1,0 +1,30 @@
+1.What is the relatioonship between members and sales?
+Ans: one to many relation ship
+
+2. What is the relationship between menu and sales
+Ans: one to many relationship
+
+3. What is the relationship between members and menu?
+Ans: no relation ship between members and menu
+
+4. What should be the primary key in the members table?
+Ans: customer_id
+5. What should be the primary key in the menu table?
+Ans: product_id
+6. What should be the primary key in the sales table?
+Ans: there are no primary keys
+
+7. What foreign keys should be in the sales table
+Ans: customer_id,product_id
+
+8. What constraints should be enforced in each table
+Ans: Members ==>
+customer_id == primary key,not null
+join_date== check
+    Menu===
+ product_id==primary key,not null
+ price==check>0
+    sales==>
+customer_id == foreign key ,not null
+order_date  check
+product_id==foreign key,not null
